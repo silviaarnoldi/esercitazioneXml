@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="archivio">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="rifugio" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="comune" type="xs:string"/>
+                        <xs:element name="provincia" type="xs:string"/>
+                        <xs:element name="nomeita">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:string">
+                                        <xs:attribute name="name" type="xs:string" use="required"/>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="nometedesco">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:string">
+                                        <xs:attribute name="name" type="xs:string" use="required"/>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="altitudine">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="metri" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="proprieta" type="xs:string"/>
+                        <xs:element name="telefono" type="xs:string"/>
+                        <xs:element name="email" type="xs:string"/>
+                        <xs:element name="internet" type="xs:string"/>
+                        <xs:element name="gruppo" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
+
+   
