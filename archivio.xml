@@ -2,10 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="archivio.xsl"?>
 <archivio>
     <rifugio>
+        <scuola>
+            <classe sezione="IA">
+                <via>"Via Roma"</via>
+            </classe>  
+        </scuola>
         <comune>"VAL DI VIZZE"</comune>
         <provincia>"BOLZANO"</provincia>
-        <nomeita name="Nome italiano rifugio">"Vipiteno"</nomeita>
-        <nometedesco name="Nome tedesco rifugio">"Sterzinger-Hatte"</nometedesco>
+        <nomeita>"Vipiteno"</nomeita>
+        <nometedesco >"Sterzinger-Hatte"</nometedesco>
         <altitudine>
             <metri>"2344"</metri>
         </altitudine>
@@ -17,10 +22,16 @@
     </rifugio>
 
     <rifugio>
+        <scuola>
+            <classe sezione="IB">
+                <via>"Via Roma"</via>
+            </classe>
+            
+        </scuola>
         <comune>"VALLE AURINA"</comune>
         <provincia>"BOLZANO"</provincia>
-        <nomeita name="Nome italiano rifugio">"Vitt.Veneto Sasso Nero"</nomeita>
-        <nometedesco name="Nome tedesco rifugio">"Schwarzenstein-Hatte"</nometedesco>
+        <nomeita>"Vitt.Veneto Sasso Nero"</nomeita>
+        <nometedesco>"Schwarzenstein-Hatte"</nometedesco>
         <altitudine>
             <metri>"2922"</metri>
         </altitudine>
@@ -32,10 +43,15 @@
     </rifugio>
 
     <rifugio>
+        <scuola>
+            <classe sezione="IC">
+                <via>"Via Roma"</via>
+            </classe> 
+        </scuola>
         <comune>"VARNA"</comune>
         <provincia>"BOLZANO"</provincia>
-        <nomeita name="Nome italiano rifugio">"Forcella Vallaga"</nomeita>
-        <nometedesco name="Nome tedesco rifugio">"Flaggerscharten-Hatte"</nometedesco>
+        <nomeita>"Forcella Vallaga"</nomeita>
+        <nometedesco >"Flaggerscharten-Hatte"</nometedesco>
         <altitudine>
             <metri>"2481"</metri>
         </altitudine>
@@ -43,21 +59,6 @@
         <telefono>"0471-625251"</telefono>
         <email>"info@flaggerschartenhuette.com"</email>
         <internet>"www.flaggerschartenhuette.com"</internet>
-        <gruppo>"Monti Sarentini"</gruppo>
-    </rifugio>
-
-    <rifugio>
-        <comune>"VELTURNO"</comune>
-        <provincia>"BOLZANO"</provincia>
-        <nomeita name="Nome italiano rifugio">"Lago Rodella"</nomeita>
-        <nometedesco name="Nome tedesco rifugio">"Radlsee-Hatte"</nometedesco>
-        <altitudine>
-            <metri>"2284"</metri>
-        </altitudine>
-        <proprieta>"AVS"</proprieta>
-        <telefono>"0472-855230"</telefono>
-        <email>"info@radlseehuette.it"</email>
-        <internet>"www.radlseehuette.it"</internet>
         <gruppo>"Monti Sarentini"</gruppo>
     </rifugio>
 </archivio>

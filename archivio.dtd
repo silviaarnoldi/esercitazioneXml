@@ -1,0 +1,20 @@
+
+    <!ELEMENT archivio (rifugio+)>
+    <!ELEMENT rifugio (scuola, comune, provincia, nomeita, nometedesco, altitudine, proprieta, telefono, email, internet, gruppo)>
+    <!ELEMENT scuola (classe)>
+    <!ELEMENT classe (via)>
+	<!ELEMENT via (#PCDATA)>
+    <!ATTLIST classe sezione CDATA #REQUIRED>
+    <!ELEMENT comune (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT nomeita (#PCDATA)>
+    <!ELEMENT nometedesco (#PCDATA)>
+    <!ELEMENT altitudine (metri)>
+    <!ELEMENT metri (#PCDATA)>
+    <!ELEMENT proprieta (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT internet (#PCDATA)>
+    <!ELEMENT gruppo (#PCDATA)>
+
+
